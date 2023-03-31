@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Hair</title>
+    <link rel="shortcut icon" href="assests/img/favicon.png" type="image/x-icon">
+    <!-- icon -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!-- estilo css -->
+    <link rel="stylesheet" href="assests/css/style.css">
+</head>
+
+<body>
+    <header class="l-header" id="header">
+        <div class="navbar container flex">
+            <div class="brand">
+                <a href="#"><img src="assests/img/logo.svg" alt="Studio Hair"></a>
+            </div>
+            <div class="nav" id="nav">
+                <ul class="nav__menu">
+                    <li class="nav__item"><a href="#" class="nav__link active-link">home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Quienes somos</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Servicios</a></li>
+                    <li class="nav__item"><a href="#package" class="nav__link">Paquetes</a></li>
+                    <li class="nav__item"><a href="#gallery" class="nav__link">Galeria</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="hero__img">
+                        <img src="assests/img/home-img.png" alt="">
+                    </div>
+                    <div class="hero__content">
+                        <h1>Sera un grande dia<br><span>Sera un gran estilo</span></h1>
+                        <p>Ven a visitar nuestro rincón de las novias y aprovecha para programar tu cita.</p>
+                        <a href="#" class="btn btn__outline"><i class='bx bxl-whatsapp'></i>Agenda tu horario</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="section__title">
+                        <h1>Nuestra historia</h1>
+                        <span>Studio Hair</span>
+                    </div>
+                    <div class="about__detail">
+                        <div class="about__detail__content">
+                            <div class="about__img">
+                                <img src="assests/img/about-img.jpg" alt="">
+                            </div>
+                            <div class="about__descripion">
+                                <p>Los asirios fueron los grandes peluqueros de la Historia. Sus damas y caballeros lucieron cabelleras deslumbrantes en forma de pirámide o en cabelleras que caían en cascadas ordenadas y relucientes en bucles y rizos que llegaban a la espalda. Su cabello cuidado y limpio se perfumaba y teñía. La barba se recortaba de forma simétrica comenzando en las mandíbulas y descendiendo en rizos adornados hasta el pecho.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services section" id="services">
+            <div class="services__content">
+                <div class="row">
+                    <div class="section__title">
+                        <h1>Servicios</h1>
+                        <span>Que tenemos</span>
+                    </div>
+                </div>
+                <div class="services__content__descripion grid container">
+                    <div class="box">
+                        <div class="inner">
+                            <img src="assests/img/servicos/manicure.png" alt="">
+                            <p>Manicure</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <img src="assests/img/servicos/pedicure.png" alt="">
+                            <p>Pericure</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <img src="assests/img/servicos/maquiagem.png" alt="">
+                            <p>Maquillaje</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <img src="assests/img/servicos/pentado.png" alt="">
+                            <p>Pintado</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <img src="assests/img/servicos/corte.png" alt="">
+                            <p>Corte de cabello</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <img src="assests/img/servicos/sobrancelha.png" alt="">
+                            <p>Diseño de cejas</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <img src="assests/img/servicos/depilacao.png" alt="">
+                            <p>Depilacion con cera</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="inner">
+                            <img src="assests/img/servicos/limpeza.png" alt="">
+                            <p>Limpieza de pelo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="package section" id="package">
+            <div class="package_-content">
+                <div class="row">
+                    <div class="section__title">
+                        <h1>Paquetes promocionales</h1>
+                        <span>Para su dia de novia</span>
+                    </div>
+                </div>
+                <div class="package__cards row container">
+                    <div class="card">
+                        <div class="card__title">
+                            <h1>Bronze</h1>
+                        </div>
+                        <div class="card__items">
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon' ></i>
+                                <p>Pintado</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon' ></i>
+                                <p>Maquillaje</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon' ></i>
+                                <p>Uñas<span>(tradicional francesa)</span></p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-x x__icon' ></i>
+                                <p class="not">Depilaje<span>(1 area)</span></p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-x x__icon' ></i>
+                                <p class="not">Diseño de cejas</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-x x__icon' ></i>
+                                <p class="not">Limpieza de pelo</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-x x__icon' ></i>
+                                <p class="not">Sala de novia de reservada</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-x x__icon' ></i>
+                                <p class="not">Mesa de frutas</p>
+                            </div>
+                            <button class="btn">Quiero ese</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__title">
+                            <h1>Plata</h1>
+                        </div>
+                        <div class="card__items">
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon' ></i>
+                                <p>Pintado</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon' ></i>
+                                <p>Maquillaje</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon' ></i>
+                                <p>Uñas<span>(tradicional francesa)</span></p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon' ></i>
+                                <p>Depilado<span>(1 area)</span></p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon' ></i>
+                                <p>Diseño de cejas</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon' ></i>
+                                <p>Limpieza de pelo</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-x x__icon' ></i>
+                                <p class="not">Sala de novia reservada</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-x x__icon' ></i>
+                                <p class="not">Mesa de frutas</p>
+                            </div>
+                            <button class="btn">Quiero ese</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__title">
+                            <h1>Oro</h1>
+                        </div>
+                        <div class="card__items">
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon' ></i>
+                                <p>Pintado</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon' ></i>
+                                <p>Maquillaje</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon' ></i>
+                                <p>Uñas<span>(tradicional francesa)</span></p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon' ></i>
+                                <p>Depilacion<span>(1 area)</span></p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon' ></i>
+                                <p>Diseño de cejas</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-x x__icon' ></i>
+                                <p class="not">Limpieza de pelo</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon' ></i>
+                                <p>Sala de novia reservada</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-x x__icon' ></i>
+                                <p class="not">Mesa de frutas</p>
+                            </div>
+                            <button class="btn">Quiero ese</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__title">
+                            <h1>Diamante</h1>
+                        </div>
+                        <div class="card__items">
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon' ></i>
+                                <p>Pintado</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon' ></i>
+                                <p>Maquillaje</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon' ></i>
+                                <p>Uñas<span>(tradicional francesa)</span></p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon' ></i>
+                                <p>Depilacion<span>(1 area)</span></p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon' ></i>
+                                <p>Diseño de cejas</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon' ></i>
+                                <p>Limpieza de pelo</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon' ></i>
+                                <p>Sala de novia reservada</p>
+                            </div>
+                            <div class="item">
+                                <i class='bx bx-message-square-check check__icon' ></i>
+                                <p>Mesa de frutas</p>
+                            </div>
+                            <button class="btn">Quiero ese</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery section" id="gallery">
+            <div class="gallery__content">
+                <div class="row">
+                    <div class="section__title">
+                        <h1>Galeria</h1>
+                        <span>Las princesas de nuestro instragram</span>
+                    </div>
+                </div>
+                <div class="gallery__list__img row container">
+                    <div class="gallery__img">
+                        <img src="assests/img/img-insta/foto1.png" alt="">
+                    </div>
+                    <div class="gallery__img">
+                        <img src="assests/img/img-insta/foto2.png" alt="">
+                    </div>
+                    <div class="gallery__img">
+                        <img src="assests/img/img-insta/foto3.png" alt="">
+                    </div>
+                    <div class="gallery__img">
+                        <img src="assests/img/img-insta/foto4.png" alt="">
+                    </div>
+                    <div class="gallery__img">
+                        <img src="assests/img/img-insta/foto5.png" alt="">
+                    </div>
+                    <div class="gallery__img">
+                        <img src="assests/img/img-insta/foto6.png" alt="">
+                    </div>
+                    <div class="gallery__img">
+                        <img src="assests/img/img-insta/foto7.png" alt="">
+                    </div>
+                    <div class="gallery__img">
+                        <img src="assests/img/img-insta/foto8.png" alt="">
+                    </div>
+                </div>
+                <button class="btn">ver mas</button>
+            </div>
+        </section>
+        <section class="testimonials section">
+            <div class="testimonials__content">
+                <div class="row">
+                    <div class="section__title">
+                        <h1>Testigos</h1>
+                        <span>Vea lo que dicen nuestros clientes</span>
+                    </div>
+                </div>
+                <div class="testimonials__card container grid">
+                    <div class="testimonials__item flex">
+                        <div class="testimonials__img">
+                            <img src="assests/img/depoimentos/depoimento-1.png" alt="">
+                        </div>
+                        <div class="testimonials__box">
+                            <div class="testimonials__name">
+                                <h1>Celaena</h1>
+                                <i class='bx bxs-star star__icon' ></i>
+                                <i class='bx bxs-star star__icon' ></i>
+                                <i class='bx bxs-star star__icon' ></i>
+                                <i class='bx bxs-star star__icon' ></i>
+                                <i class='bx bxs-star star__icon' ></i>
+                            </div>
+                            <div class="testimonials__descripition">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Quidem quo saepe quibusdam nobis quas minima!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonials__item flex">
+                        <div class="testimonials__img">
+                            <img src="assests/img/depoimentos/depoimento-2.png" alt="">
+                        </div>
+                        <div class="testimonials__box">
+                            <div class="testimonials__name">
+                                <h1>Aelin</h1>
+                                <i class='bx bxs-star star__icon' ></i>
+                                <i class='bx bxs-star star__icon' ></i>
+                                <i class='bx bxs-star star__icon' ></i>
+                                <i class='bx bxs-star star__icon' ></i>
+                                <i class='bx bxs-star star__icon' ></i>
+                            </div>
+                            <div class="testimonials__descripition">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Quidem quo saepe quibusdam nobis quas minima!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonials__item flex">
+                        <div class="testimonials__img">
+                            <img src="assests/img/depoimentos/depoimento-1.png" alt="">
+                        </div>
+                        <div class="testimonials__box">
+                            <div class="testimonials__name">
+                                <h1>Luciana</h1>
+                                <i class='bx bxs-star star__icon' ></i>
+                                <i class='bx bxs-star star__icon' ></i>
+                                <i class='bx bxs-star star__icon' ></i>
+                                <i class='bx bxs-star star__icon' ></i>
+                                <i class='bx bxs-star star__icon' ></i>
+                            </div>
+                            <div class="testimonials__descripition">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Quidem quo saepe quibusdam nobis quas minima!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonials__item flex">
+                        <div class="testimonials__img">
+                            <img src="assests/img/depoimentos/depoimento-2.png" alt="">
+                        </div>
+                        <div class="testimonials__box">
+                            <div class="testimonials__name">
+                                <h1>Patricia</h1>
+                                <i class='bx bxs-star star__icon' ></i>
+                                <i class='bx bxs-star star__icon' ></i>
+                                <i class='bx bxs-star star__icon' ></i>
+                                <i class='bx bxs-star star__icon' ></i>
+                                <i class='bx bxs-star star__icon' ></i>
+                            </div>
+                            <div class="testimonials__descripition">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Quidem quo saepe quibusdam nobis quas minima!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="contact">
+        <div class="footer__list section container grid">
+            <div class="footer__data">
+                <h1><a href="#"><img src="assests/img/logo.svg" alt=""></a></h1>
+                <div class="footer__data-social">
+                    <a href=""><i class='bx bxl-facebook social__icon'></i></a>
+                    <a href=""><i class='bx bxl-instagram social__icon' ></i></a>
+                    <a href=""><i class='bx bxl-whatsapp social__icon' ></i></a>
+                </div>
+            </div>
+            <div class="footer__data">
+                <h2>Nuestra dirección</h2>
+                <p>Maracaibo Norte Sambil<br> Zulia - VZLA</p>
+            </div>
+            <div class="footer__data">
+                <h2>Nuestro horario</h2>
+                <p>De lunes a viernes<br>de 09:00 a 18:00</p>
+            </div>
+            <div class="footer__data">
+                <h2>Contacto</h2>
+                <p>+58 4121614293</p>
+                <p>+58 2617661117</p>
+            </div>
+        </div>
+        <div class="copy">
+            <p>&copy Todos los derechos reservados.</p>
+            <span>Feito pero con amor - potente</span>
+        </div>
+    </footer>
+    <!-- javascript -->
+    <script src="assests/js/style.js"></script>
+</body>
+
+</html>
